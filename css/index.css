@@ -1,0 +1,155 @@
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 20px 100px;
+}
+.nav-items
+{
+    display: flex;
+    font-size: 26px;
+    font-family: "Poppins";
+    justify-content: space-between;
+}
+.nav-items h5
+{
+    padding: 0px 50px 0px 90px;
+}
+.nav-items h5:hover
+{
+    color: hsl(12deg 99% 60%);
+}
+.intro-section
+{
+   display: flex;
+}
+.left-section h3
+{
+    font-size: 40px;
+    font-family: "Poppins";
+    padding: 2px 5px 5px 100px;
+    margin: 60px 0px 0px 0px;
+}
+.left-section h1
+{
+    font-size: 90px;
+    font-family: "Fredoka One";  
+    padding: 5px 5px 5px 100px; 
+    margin: 0px;
+}
+.sub-headlines
+{
+    font-family: "Poppins";
+    font-size: 25px;
+    padding: 5px 5px 5px 200px;
+}
+.sub-headlines img
+{
+    background-color: hsl(12deg 99% 60%);
+    border-radius: 50%;
+    padding: 4px;
+}
+.sub-headline
+{
+    display: flex;
+}
+.sub-headlines img
+{
+    margin-right: 22px;
+}
+.text
+{
+    color: hsl(0deg 0% 59%);
+    padding:5px 162px 5px 100px;
+}
+.action-btns
+{
+    padding: 25px 5px 5px 110px;
+}
+.action-btn
+{
+    background-color: hsl(12deg 99% 60%);
+    border: none;
+    padding: 18px 32px;
+    color: white;
+    font-size: 19px;
+    border-radius: 25px;
+    margin-right: 30px;
+}
+.headphone-div
+{
+    display: flex;
+}
+.discount 
+{
+    z-index: 1;
+    left: 110px;
+    top: 135px;
+    filter: drop-shadow(0 0.6rem 0.25rem rgb(114, 114, 114));
+}
+.discount-content
+{
+  position: relative;
+  font-family: "Fredoka One";
+  height: fit-content;
+  z-index: 2;
+  top: 394px;
+  right: 32px;
+  font-size: 24px;
+  color: white;
+}
+.discount-content h4
+{
+    font-size: 17px;
+    padding-left: 12px;
+    margin: 0px;
+}
+.discount-content h1
+{
+    margin: 0px;
+    font-size: 50px;
+}
+.headphone-div img
+{
+    position: relative;
+    right: 125px;
+}
+.dots
+{
+    padding: 0px 0px 0px 368px;
+}
+.dots div
+{
+    margin-right: 50px;
+}
+.yellow-dot
+{
+    height: 25px;
+    width: 25px;
+    background-color: hsl(50deg 97% 50%);
+    border-radius: 50%;
+    display: inline-block;
+}
+.tomato-dot
+{
+    height: 25px;
+    width: 25px;
+    background-color: hsl(12deg 99% 60%);
+    border-radius: 50%;
+    display: inline-block;
+}
+.black-dot
+{
+    height: 25px;
+    width: 25px;
+    background-color: hsl(0deg 0% 0%);
+    border-radius: 50%;
+    display: inline-block;
+}
+.right-section .action-btn
+{
+    position: relative;
+    top: 2%;
+    left: 42%;
+}
+
